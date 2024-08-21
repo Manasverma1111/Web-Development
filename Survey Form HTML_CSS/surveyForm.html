@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the Survey Form.</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name <input id="name" type="text" required placeholder="Enter your Name"/></label>
+            <label id ="email-label" for="email">E-mail <input id="email" type="email" placeholder="Enter your Email" required/></label>
+            <label id="number-label" for="age">Age <input id="number" type="number" min="16" max="120" placeholder="Enter your Age" />
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">Which option best describes your current role?</label>
+        <select id="dropdown" required>
+            <option value="" disabled selected>select an option</option>
+            <option value="Student">Student</option>
+            <option value="Part-time-job">Part time job</option>
+            <option valued="Full-time-job">Full time job</option>
+            <option value="others">Others</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <p>Would you recommend our site</p>
+            <label><input type="radio" name="recommend" value="definitely" required>Definitely</label>
+            <label><input type="radio" name="recommend" value="maybe" required>Maybe</label>
+            <label><input type="radio" name="recommend" value="not sure" required>Not sure</label>
+        </fieldset>
+        <fieldset>    
+            <p>What topics would you like to learn more</p>
+            <label>
+            <input type="checkbox" name="topics" value="HTML" >HTML</label>
+            <label>
+            <input type="checkbox" name="topics" value="CSS" >CSS</label>
+            <label>
+            <input type="checkbox" name="topics" value="JAVASCRIPT">JAVASCRIPT
+            </label>
+            <label>
+            <input type="checkbox" name="topics" value="DSA">DSA</label>
+            <label>
+            <input type="checkbox" name="topics" value="DBMS">DBMS</label>
+            <label>
+            <input type="checkbox" name="topics" value="SQL">SQL</label>
+        </fieldset>
+        <fieldset>
+            <label for="commenets">Additional comments</label>
+            <textarea id="comments" placeholder="add your comments here..."></textarea></fieldset>
+        <fieldset>
+            <button id="submit" type="submit">Submit</button>
+        </fieldset>
+    </form>
+    </body>
+    </html>
+
