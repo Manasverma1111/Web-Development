@@ -1,0 +1,45 @@
+.webspan {
+    display: inline-block;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin: 250px 570px;
+}
+
+.logospan {
+    font-size: 25px;
+    display: inline-block;
+    padding: 0px;
+    padding-left: 45px;
+}
+
+.homediv{
+    background-image: url("/im_ages/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.about {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.myinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.myimg {
+    width: 400px;
+}
+
+.infodiv{
+    text-align: start;
+    width: 300px;
+    height: 400px;
+    padding-left: 20px;
+}
